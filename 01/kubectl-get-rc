@@ -1,0 +1,11 @@
+kubectl get replicationcontrollers
+kubectl scale rc kubia --replicas=3
+kubectl get rc
+kubectl get pods
+kubectl get pods -o wide
+kubectl describe pod kubia-hczji
+kubectl cluster-info | grep dashboard
+gcloud container clusters describe kubia | grep -E "(username|password):"
+minikube dashboard
+
+

@@ -1,0 +1,1 @@
+kubectl run kubia --image=luksa/kubia --port=8080 --generator=run/v1 replicationcontroller "kubia" created
